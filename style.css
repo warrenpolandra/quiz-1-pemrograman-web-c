@@ -1,0 +1,25 @@
+* {
+    text-decoration: none;
+    margin: 6px;
+    padding: 0px;
+}
+
+.rm{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    border: 2px solid black;
+    display: inline-table;
+}
+
+.header{
+    border-bottom: 5px solid black;
+    margin-bottom: 30px;
+}
+
+.header p{
+    font-style: italic;
+}
+
+.subheader h3{
+    text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href = "style.css"/> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="rm">
+        <h3 align="right">RM 15</h3>
+    </div>
+    <div class="header" align="center">
+        <h1>PEMERINTAH KABUPATEN SOLOK</h1>
+        <h1>RUMAH SAKIT UMUM DAERAH AROSUKA</h1>
+        <p>Jl. Raya Solok Padang KM. 20 Arosuka Kode Pos 27364</p>
+        <p>Propinsi Sumatera Barat Telp./Fax(0755) 31160</p>
+        <p>Email: rsudarosukakabsolok@gmail.com</p>
+    </div>
+    <title>Formulir Pendaftaran Pasien Baru</title>
+    <script type="text/javascript" src="main.js">
+        
+    </script>
+</head>
+<body>
+    <div class="subheader">
+        <h2 align="center">FORMULIR PENDAFTARAN PASIEN BARU</h2>
+        <br></br>
+        <h3>PERHATIAN: HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</h3>
+    </div>
+    <form="Pasien" >
+        <h3>I. IDENTITAS PASIEN</h3>
+        <table cellspacing="2" cellpadding="8" border="0">
+            <tr><td>Nama Pasien</td>
+                <td><input type="text" placeholder="Nama Lengkap" id="nama_pasien"></td></tr>
+            <tr><td>Tempat Lahir</td>
+                <td><input type="text" placeholder="Tempat Lahir" id="tempat_lahir"></td></tr>
+            <tr><td>Tanggal Lahir</td>
+                <td><input type="date" id="tanggal_lahir"></td></tr>
+            <tr><td>Jenis Kelamin</td>
+                <td>
+                    <select id="jenis_kelamin" name="jenis_kelamin">
+                        <option value="">-</option>
+                        <option value="L">Laki-laki</option>
+                        <option value="P">Perempuan</option>
+                    </select></td></tr>
+            <tr><td>Alamat</td>
+                <td><input type="text" placeholder="Alamat Lengkap" id="alamat"></td></tr>            
+            <tr><td>Provinsi</td>
+                <td><input type="text" placeholder="Provinsi" id="provinsi"></td></tr>
+            <tr><td>Kecamatan</td>
+                <td><input type="text" placeholder="Kecamatan" id="kecamatan"></td></tr>
+            <tr><td>Kelurahan/Desa</td>
+                <td><input type="text" placeholder="Kelurahan/Desa" id="kelurahan"></td></tr>
+            <tr><td>No. Telp/HP</td>
+                <td><input type="text" placeholder="Nomor Telepon" id="hp"></td></tr>
+            <tr><td>Kode Pos</td>
+                <td><input type="text" placeholder="Kode Pos" id="kode_pos"></td></tr>
+            <tr><td>Agama</td>
+                <td>
+                    <select id="agama" name="agama">
+                        <option value="">-</option>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="khong_hu_chu">Khong Hu Chu</option>
+                    </select></td></tr>
+            <tr><td>Pendidikan Terakhir</td>
+                <td><input type="text" placeholder="Pendidikan Terakhir" id="pendidikan_pasien"></td></tr>
+            <tr><td>Pekerjaan</td>
+                <td><input type="text" placeholder="Pekerjaan saat ini" id="pekerjaan_pasien"></td></tr>
+        </table>
+        <br></br>
+        <h3>II. PENANGGUNG JAWAB PASIEN</h3>
+        <table cellspacing="5" cellpadding="8" border="0">
+            <tr><td>Hubungan Dengan Pasien</td>
+                <td><input type="text" placeholder="Suami / Istri / Orang Tua" id="hubungan"></td></tr>
+            <tr><td>Nama Penanggung Jawab</td>
+                <td><input type="text" placeholder="Nama Lengkap" id="nama_pj"></td></tr>
+            <tr><td>Pendidikan P. Jawab</td>
+                <td><input type="text" placeholder="Pendidikan Terakhir" id="pendidikan_pj"></td></tr>
+            <tr><td>Pekerjaan P. Jawab</td>
+                <td><input type="text" placeholder="Pekerjaan Saat Ini" id="pekerjaan_pj"></td></tr>
+        </table>
+        <input type="submit" value="Submit Form" onClick="submit_form()"/>
+    </form>
+</body>
+</html>
